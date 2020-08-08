@@ -16,7 +16,7 @@ then
 	echo "Versi Php adalah:"
 	php -v
 	echo "Versi MySQL"
-	myql -v   
+	mysql -v   
 	exit 0 
 else    
 	echo "Installasi dibatalkan"    
