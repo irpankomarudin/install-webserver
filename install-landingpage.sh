@@ -7,11 +7,11 @@ then
     echo "Downloading Data"
     echo "=============================>"
     cd
-    wget https://github.com/sdcilsy/landing-page
-    echo "=============================>"
+    wget https://github.com/irpankomarudin/landingpage/archive/master.zip
     echo "Ekstrak File"
     echo "=============================>"
-    unzip landing-page.zip
+    unzip master.zip
+	sudo rm master.zip
     echo "=============================>"
     echo "Memindahkan data"
     echo "=============================>"

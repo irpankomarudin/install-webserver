@@ -12,6 +12,7 @@ then
     echo "Mengekstrak File"
     echo "=============================>"
     unzip master.zip
+	sudo rm master.zip
     echo "=============================>"
     echo "Memindahkan data"
     echo "=============================>"
