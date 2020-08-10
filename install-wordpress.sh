@@ -1,22 +1,22 @@
 #!/bin/bash
 jawaban="Y"
-read -p "Apakah kamu yakin akan melakukan setup Web Landing Page ? (Y/n) " pilih;
+read -p "Lanjutkan Setup Web Wordpress? (Y/n) " pilih;
 if [ $pilih == $jawaban ]; 
 then
     echo "=============================>"
     echo "Downloading Data"
     echo "=============================>"
     cd
-    wget https://github.com/sdcilsy/landing-page
+    wget https://github.com/irpankomarudin/wordpress.git
     echo "=============================>"
-    echo "Ekstrak File"
+    echo "Mengekstrak File"
     echo "=============================>"
-    unzip landing-page.zip
+    unzip master.zip
     echo "=============================>"
     echo "Memindahkan data"
     echo "=============================>"
-	mkdir var/www/html/landing-page
-    sudo mv landing-page/* /var/www/html/landing-page
+    sudo mkdir /var/www/html/wordpress
+    sudo mv sosial-media-master/* /var/www/html/wordpress
     echo "Setup selesai"
     exit 0
 else

@@ -15,8 +15,8 @@ then
     echo "=============================>"
     echo "Memindahkan data"
     echo "=============================>"
-    sudo mkdir /var/www/html/landing-page
-    sudo mv sosial-media-master/* /var/www/html/landing-page
+    sudo mkdir /var/www/html/sosial-media
+    sudo mv sosial-media-master/* /var/www/html/sosial-media
     echo "Setup selesai"
     exit 0
 else
