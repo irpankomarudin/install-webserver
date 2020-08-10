@@ -16,7 +16,7 @@ then
     echo "Memindahkan data"
     echo "=============================>"
     sudo mkdir /var/www/html/wordpress
-    sudo mv wordpress/* /var/www/html/wordpress
+    sudo mv wordpress-master/* /var/www/html/wordpress
     echo "Setup selesai"
     exit 0
 else

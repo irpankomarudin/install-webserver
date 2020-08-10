@@ -16,7 +16,7 @@ then
     echo "Memindahkan data"
     echo "=============================>"
 	mkdir /var/www/html/landing-page
-    sudo mv landing-page/* /var/www/html/landing-page
+    sudo mv landingpage-master/* /var/www/html/landing-page
     echo "Setup selesai"
     exit 0
 else
